@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+if [ $# -lt 2 ]; then echo "Usage: $0 ARG1 ARG2"; exit 1;fi
+
 declare -a v1=(0 0 0 0)
 declare -a v2=(0 0 0 0)
 
